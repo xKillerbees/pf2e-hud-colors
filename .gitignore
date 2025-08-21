@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+.vscode/
+.idea/
+dist/
+coverage/
+/pf2e-hud-colors-v*.zip

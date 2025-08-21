@@ -1,0 +1,7 @@
+<section id="rpg-ui-buttons">
+  {{#each buttons}}
+    <button data-id="{{rt}}" class="button{{#if active}} active{{/if}}" aria-label="{{name}}" data-tooltip="{{name}}">
+      <i class="{{icon}}"></i>
+    </button>
+  {{/each}}
+</section>

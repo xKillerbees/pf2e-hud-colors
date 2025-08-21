@@ -1,0 +1,96 @@
+{
+    "RPGUI.SETTINGS.DORAKOUI":"Witaj, właśnie aktywowałeś Pathfinder Ui v3 i Dorako Ui w tym samym czasie. Oba moduły są interfejsami graficznymi i nie mogą być aktywowane razem, ponieważ mają wspólny kod, który wzajemnie się zakłóca. Prosimy o dezaktywację jednego z dwóch interfejsów. Dziękujemy za zrozumienie.",
+
+    "RPGUI.SETTINGS.DARKWINDOWS":"Kolor ciemnych okien",
+    "RPGUI.SETTINGS.DARKWINDOWS_HINT":"Włącza ciemne okna w większości okien interfejsu użytkownika, z wyjątkiem tych związanych z powyższymi ustawieniami.",
+
+    "RPGUI.SETTINGS.DARKSHEET":"Wybierz kolor Karty Postaci",
+    "RPGUI.SETTINGS.DARKSHEET_HINT":"Tylko dla kart postaci graczy.",
+
+    "RPGUI.SETTINGS.DARKPARTYSHEET":"Kolor Karty Drużyny",
+    "RPGUI.SETTINGS.DARKPARTYSHEET_HINT":"Wybierz oryginalną lub ciemną kartę.",
+
+    "RPGUI.SETTINGS.DARKLOOTSHEET":"Kolor Karty Łupów",
+    "RPGUI.SETTINGS.DARKLOOTSHEET_HINT":"Wybierz oryginalną lub ciemną kartę.",
+
+    "RPGUI.SETTINGS.DARKNPCSHEET":"Kolor Karty Postaci BN",
+    "RPGUI.SETTINGS.DARKNPCSHEET_HINT":"Wybierz oryginalną lub ciemną kartę.",
+
+    "RPGUI.SETTINGS.DARKHAZARDSHEET":"Kolor Karty Zagrożeń",
+    "RPGUI.SETTINGS.DARKHAZARDSHEET_HINT":"Wybierz oryginalną lub ciemną kartę.",
+
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET":"Kolor Karty Królestwa",
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET_HINT":"Wybierz oryginalną lub ciemną kartę.",
+
+    "RPGUI.SETTINGS.DARKJOURNAL":"Wybierz kartę dziennika",
+    "RPGUI.SETTINGS.DARKJOURNAL_HINT":"Wybierz oryginalną, niestandardową lub ciemną niestandardową kartę.",
+
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD": "Dostosować efekty tokenów do HUD?",
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD_HINT": "Sprawia, że efekty są okrągłe i układa je poza tokenem lub na pierścieniu tokena w przypadku większych tokenów.",
+
+    "RPGUI.SETTINGS.TOKEN_HUD": "Wyłączyć Ciemny PF2e Interactive Token Tooltip?",
+    "RPGUI.SETTINGS.TOKEN_HUD_HINT": "Wyłącza ciemny motyw PF2e Interactive Token Tooltip i przywraca domyślny motyw.",
+
+    "RPGUI.SETTINGS.PF2E_HUD": "Wyłączyć motyw PF2e HUD?",
+    "RPGUI.SETTINGS.PF2E_HUD_HINT": "Wyłącza motyw PF2e HUD i przywraca domyślny motyw",
+
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING": "Wyłączyć motyw PF2e Bestiary Tracking?",
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING_HINT": "Wyłącza motyw PF2e Bestiary Tracking i przywraca domyślny motyw",
+
+    "RPGUI.SETTINGS.NAVIGATION": "Przełącza nawigację z powrotem do trybu poziomego",
+    "RPGUI.SETTINGS.NAVIGATION_HINT": "Użyj tego przełącznika, jeśli nie korzystasz z integracji Combat Carousel",
+
+    "RPGUI.SETTINGS.COMPACT_MODE": "Tryb kompaktowy",
+    "RPGUI.SETTINGS.COMPACT_MODE_HINT": "Zmniejsza rozmiar lewego menu i usuwa logo",
+
+    "RPGUI.SETTINGS.STANDARD_LOGO": "Standardowe logo",
+    "RPGUI.SETTINGS.STANDARD_LOGO_HINT": "Przywraca standardowe logo zamiast logo tekstowego",
+
+    "RPGUI.SETTINGS.JOURNAL_SHEET": "Wyłącz teksturę pergaminu na stronach dziennika",
+    "RPGUI.SETTINGS.JOURNAL_SHEET_HINT": "Wyłącza pergaminowy wygląd wpisów w dzienniku. (Wygląd pergaminu działa tylko z oryginalnym arkuszem dziennika).",
+
+    "RPGUI.SETTINGS.JOURNAL_CURSOR": "Wyłącz kursor RPG.",
+    "RPGUI.SETTINGS.JOURNAL_CURSOR_HINT": "Wyłączenie stylu RPG kursora w interfejsie.",
+
+    "RPGUI.SETTINGS.MINIMAL_UI": "Minimalne wsparcie UI",
+    "RPGUI.SETTINGS.MINIMAL_UI_HINT": "Naprawia niektóre (nie wszystkie) problemy z minimalnym UI",
+
+    "RPGUI.SETTINGS.DISABLE_STYLES": "Wyłącz Pathfinder UI",
+    "RPGUI.SETTINGS.DISABLE_STYLES_HINT": "Jest to ustawienie lokalne, w którym każdy gracz może wyłączyć style",
+
+    "RPGUI.SETTINGS.AUTO_COLLAPSE_SCENE_NAVIGATION_TEXT": "Automatyczne zwijanie paska nawigacji sceny",
+    "RPGUI.SETTINGS.AUTO_COLLAPSE_SCENE_NAVIGATION_TEXT_HINT": "(Lokalnie) Pasek nawigacji sceny będzie domyślnie zwinięty",
+
+    "RPGUI.SETTINGS.EnableTitle": "Przyciski Rzutów: Zastąp selektor typu rzutów przyciskami",
+    "RPGUI.SETTINGS.EnableHint": "Zastąpienie rozwijanego menu wyboru typów rzutów zestawem czterech przycisków.",
+    "RPGUI.SETTINGS.ReplaceButtonsTitle": "Przyciski Rzutów: Użyj stylu przycisku na wszystkich przyciskach czatu",
+    "RPGUI.SETTINGS.ReplaceButtonsHint": "Zmień styl pozostałych przycisków czatu, aby wyglądały tak samo jak nowe przyciski typów rzutów.",
+
+    "RPGUI.SETTINGS.OPEN_SHEET_ON_CHAT_CLICK_TEXT": "Otwórz kartę postaci po kliknięciu nazwy na czacie",
+    "RPGUI.SETTINGS.OPEN_SHEET_ON_CHAT_CLICK_TEXT_HINT": "(Lokalnie) Otwiera kartę postaci po kliknięciu jego nazwy na czacie",
+
+    "RPGUI.SETTINGS.EnableAllianceViewerTitle": "Wyświetl sprzymierzeńców aktora na pasku bocznym",
+    "RPGUI.SETTINGS.EnableAllianceViewerHint": "Wyświetla kolorową kropkę pozwalającą łatwo rozpoznać sojuszników i wrogów",
+
+    "PAUSEICON.path_name":       "Ścieżka danych dla ikony pauzy:",
+    "PAUSEICON.path_hint":       "Folder i nazwa pliku, w którym znajduje się alternatywna ikona pauzy w danych Foundry VTT. Kliknij przycisk wyboru, aby wybrać ikonę. Wybierz \"Brak\", aby nie wyświetlać obrazu.",
+    "PAUSEICON.opacity_name":    "Krycie %:",
+    "PAUSEICON.opacity_hint":    "Wartość od 0 do 100, niższa oznacza większą przezroczystość.",
+    "PAUSEICON.text_name":       "Komunikat pauzy: ",
+    "PAUSEICON.text_hint":       "Komunikat wyświetlany po wstrzymaniu gry.",
+    "PAUSEICON.speed_name":      "Prędkość: ",
+    "PAUSEICON.speed_hint":      "Sekundy na obrót, 0 oznacza brak obrotu.",
+    "PAUSEICON.dimensionX_name": "Wymiar (szerokość): ",
+    "PAUSEICON.dimensionX_hint": "Szerokość ikony w pikselach.",
+    "PAUSEICON.dimensionY_name": "Wymiar (wysokość): ",
+    "PAUSEICON.dimensionY_hint": "Wysokość ikony w pikselach.",
+    "PAUSEICON.fontSize_name":   "Rozmiar czcionki:",
+    "PAUSEICON.fontSize_hint":   "Rozmiar czcionki w em, domyślnie 2",
+    "PAUSEICON.shadow_name":     "Cień (włączony/wyłączony): ",
+    "PAUSEICON.shadow_hint":     "Po włączeniu pod tekstem pojawia się cień.",
+    "PAUSEICON.textColor_name":  "Kolor: ",
+    "PAUSEICON.textColor_hint":  "Kod szesnastkowy (np. #EEEEEE) lub nazwa koloru HTML (np. CornflowerBlue)",
+    "PAUSEICON.saveButton":      "Zapisz ustawienia",
+    "PAUSEICON.settings":        "Ustawienia: ",
+    "PAUSEICON.settingsButton":  "Podmenu ustawień"
+}

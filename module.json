@@ -1,0 +1,70 @@
+{
+  "id": "pf2e-hud-colors",
+  "title": "PF2E HUD Colors",
+  "description": "Adds color styling and UI tweaks for the PF2E HUD module.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "xKillerbees",
+      "email": "xkillerbees@gmail.com",
+      "discord": "xKillerbees"
+    }
+  ],
+  "url": "https://github.com/xKillerbees/pf2e-hud-colors",
+  "manifest": "https://raw.githubusercontent.com/xKillerbees/pf2e-hud-colors/v1.0.0/module.json",
+  "download": "https://github.com/xKillerbees/pf2e-hud-colors/releases/download/v1.0.0/pf2e-hud-colors-v1.0.0.zip",
+  "readme": "https://github.com/xKillerbees/pf2e-hud-colors#readme",
+  "bugs": "https://github.com/xKillerbees/pf2e-hud-colors/issues",
+  "license": "MIT",
+  "systems": [
+    "pf2e"
+  ],
+  "relationships": {
+    "modules": [
+      {
+        "id": "pf2e-hud",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.28.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/rpg-ui.js"
+  ],
+  "styles": [
+    "css/pf2e-hud.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ]
+}

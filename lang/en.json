@@ -1,0 +1,96 @@
+{
+    "RPGUI.SETTINGS.DORAKOUI":"Hello Hello, you've just activated Pathfinder Ui v3 & Dorako Ui at the same time. Both modules are graphical interfaces and cannot be activated together, as they share common code that interferes with each other. Please deactivate one of the two interfaces. Thank you for your understanding.",
+
+    "RPGUI.SETTINGS.DARKWINDOWS":"Dark windows Color",
+    "RPGUI.SETTINGS.DARKWINDOWS_HINT":"Enables Dark Windows on most Ui windows except those related to the above settings.",
+
+    "RPGUI.SETTINGS.DARKSHEET":"Select your Sheet Color",
+    "RPGUI.SETTINGS.DARKSHEET_HINT":"Only for player sheets.",
+
+    "RPGUI.SETTINGS.DARKPARTYSHEET":"Party Sheet Color",
+    "RPGUI.SETTINGS.DARKPARTYSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKLOOTSHEET":"Loot Sheet Color",
+    "RPGUI.SETTINGS.DARKLOOTSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKNPCSHEET":"NPC Sheet Color",
+    "RPGUI.SETTINGS.DARKNPCSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKHAZARDSHEET":"Hazard Sheet Color",
+    "RPGUI.SETTINGS.DARKHAZARDSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET":"Kingdom Sheet Color",
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKJOURNAL":"Select your journal sheet",
+    "RPGUI.SETTINGS.DARKJOURNAL_HINT":"Select original, custom or dark custom sheet.",
+
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD": "Adjust token effects HUD?",
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD_HINT": "Makes effects circular and arranges them outside the token, or on the token ring for larger tokens",
+
+    "RPGUI.SETTINGS.TOKEN_HUD": "Disable Dark PF2e Interactive Token Tooltip?",
+    "RPGUI.SETTINGS.TOKEN_HUD_HINT": "Disables the dark theme of PF2e Interactive Token Tooltip and restores default theme",
+
+    "RPGUI.SETTINGS.PF2E_HUD": "Disable PF2e HUD Theme?",
+    "RPGUI.SETTINGS.PF2E_HUD_HINT": "Disable PF2e HUD theme and restores default theme",
+
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING": "Disable PF2e Bestiary Tracking Theme?",
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING_HINT": "Disable PF2e Bestiary Tracking theme and restores default theme",
+
+    "RPGUI.SETTINGS.NAVIGATION": "Switches the navigation back to horizontal mode",
+    "RPGUI.SETTINGS.NAVIGATION_HINT": "Use this switch if you are not using Combat Carousel integration",
+
+    "RPGUI.SETTINGS.COMPACT_MODE": "Compact mode",
+    "RPGUI.SETTINGS.COMPACT_MODE_HINT": "Reduces the size of the left menu and removes the logo",
+
+    "RPGUI.SETTINGS.STANDARD_LOGO": "Standard logo",
+    "RPGUI.SETTINGS.STANDARD_LOGO_HINT": "Returns the standard logo instead of the text logo",
+
+    "RPGUI.SETTINGS.JOURNAL_SHEET": "Disable parchment texture on Journal pages",
+    "RPGUI.SETTINGS.JOURNAL_SHEET_HINT": "Disable the parchment appearance on journal entries. (Parchment appearance work only with the original sheet journal)",
+
+    "RPGUI.SETTINGS.JOURNAL_CURSOR": "Disable RPG Cursors.",
+    "RPGUI.SETTINGS.JOURNAL_CURSOR_HINT": "Disable RPG Cursor style in Interface.",
+
+    "RPGUI.SETTINGS.MINIMAL_UI": "Minimal UI support",
+    "RPGUI.SETTINGS.MINIMAL_UI_HINT": "Fixes some (not all) of the problems with minimal UI",
+
+    "RPGUI.SETTINGS.DISABLE_STYLES": "Disable Pathfinder UI",
+    "RPGUI.SETTINGS.DISABLE_STYLES_HINT": "This is a local setting, with which any player can turn off styles",
+
+    "RPGUI.SETTINGS.AUTO_COLLAPSE_SCENE_NAVIGATION_TEXT": "Auto collapse the scene navigation bar",
+    "RPGUI.SETTINGS.AUTO_COLLAPSE_SCENE_NAVIGATION_TEXT_HINT": "(Local) The scene navigation bar will be collapsed by default",
+
+    "RPGUI.SETTINGS.EnableTitle": "Roll Buttons: Replace roll type selector with buttons",
+    "RPGUI.SETTINGS.EnableHint": "Replace the drop-down menu selector for roll types with a set of four buttons.",
+    "RPGUI.SETTINGS.ReplaceButtonsTitle": "Roll Buttons: Use button style on all chat buttons",
+    "RPGUI.SETTINGS.ReplaceButtonsHint": "Restyle the other chat buttons to look the same as the new Roll Type buttons.",
+
+    "RPGUI.SETTINGS.OPEN_SHEET_ON_CHAT_CLICK_TEXT": "Open the sheet when the name is clicked in the chat",
+    "RPGUI.SETTINGS.OPEN_SHEET_ON_CHAT_CLICK_TEXT_HINT": "(Local) Open the actor's sheet when clicking on their name in the chat",
+
+    "RPGUI.SETTINGS.EnableAllianceViewerTitle": "Show the actor's alliance in the SideBar",
+    "RPGUI.SETTINGS.EnableAllianceViewerHint": "Displays a colored dot allowing you to easily see the alliance to which an actor belongs",
+
+    "PAUSEICON.path_name":       "Data path of pause icon: ",
+    "PAUSEICON.path_hint":       "Folder and filename of where your alternative pause icon is within the Foundry VTT data. Click the picker button to select your icon. Type 'None', for no image.",
+    "PAUSEICON.opacity_name":    "Opacity %:",
+    "PAUSEICON.opacity_hint":    "Value between 0 and 100, lower means more translucent",
+    "PAUSEICON.text_name":       "Pause message: ",
+    "PAUSEICON.text_hint":       "Message that appears when paused.",
+    "PAUSEICON.speed_name":      "Speed: ",
+    "PAUSEICON.speed_hint":      "Seconds per rotation, 0 is no rotation.",
+    "PAUSEICON.dimensionX_name": "Dimension (width): ",
+    "PAUSEICON.dimensionX_hint": "Width of the icon in pixels.",
+    "PAUSEICON.dimensionY_name": "Dimension (height): ",
+    "PAUSEICON.dimensionY_hint": "Height of the icon in pixels.",
+    "PAUSEICON.fontSize_name":   "Font size:",
+    "PAUSEICON.fontSize_hint":   "Size of the font in em, default is 2",
+    "PAUSEICON.shadow_name":     "Drop shadow (on/off): ",
+    "PAUSEICON.shadow_hint":     "When enabled there is a drop shadow under the text.",
+    "PAUSEICON.textColor_name":  "Color: ",
+    "PAUSEICON.textColor_hint":  "Either Hexcode (eg. #EEEEEE) or HTML color name (eg. CornflowerBlue)",
+    "PAUSEICON.saveButton":      "Save Settings",
+    "PAUSEICON.settings":        "Settings: ",
+    "PAUSEICON.settingsButton":  "Settings Submenu"
+}

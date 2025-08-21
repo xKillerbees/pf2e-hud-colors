@@ -1,0 +1,96 @@
+{
+    "RPGUI.SETTINGS.DORAKOUI":"Hello Hello, vous venez d'activer Pathfinder Ui v3 & Dorako Ui en même temps. Les deux modules sont des interfaces graphiques et elles ne peuvent être activées ensemble car elles partagent un code commun interférant l'une avec l'autre. Merci de bien vouloir désactiver l'une des deux Interfaces afin de profiter pleinement du jeu. Merci de votre compréhension et bon jeu à vous.",
+
+    "RPGUI.SETTINGS.DARKWINDOWS":"Toutes les Fenêtres sombres",
+    "RPGUI.SETTINGS.DARKWINDOWS_HINT":"Active les fenêtres sombres sur la plupart des fenêtres de l'interface utilisateur, à l'exception de celles liées aux paramètres ci-dessus.",
+
+    "RPGUI.SETTINGS.DARKSHEET":"Couleur de la Feuille PJ",
+    "RPGUI.SETTINGS.DARKSHEET_HINT":"Uniquement pour la feuille de personnage joueur.",
+
+    "RPGUI.SETTINGS.DARKPARTYSHEET":"Feuille de Groupe",
+    "RPGUI.SETTINGS.DARKPARTYSHEET_HINT":"Permet de choisir entre la feuille originale ou sombre.",
+
+    "RPGUI.SETTINGS.DARKLOOTSHEET":"Feuille de Butin",
+    "RPGUI.SETTINGS.DARKLOOTSHEET_HINT":"Permet de choisir entre la feuille originale ou sombre.",
+
+    "RPGUI.SETTINGS.DARKNPCSHEET":"Personnage non Joueur",
+    "RPGUI.SETTINGS.DARKNPCSHEET_HINT":"Permet de choisir entre la feuille originale ou sombre.",
+
+    "RPGUI.SETTINGS.DARKHAZARDSHEET":"Feuille de Danger",
+    "RPGUI.SETTINGS.DARKHAZARDSHEET_HINT":"Permet de choisir entre la feuille originale ou sombre.",
+
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET":"Feuille de Royaume",
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET_HINT":"Permet de choisir entre la feuille originale ou sombre.",
+
+    "RPGUI.SETTINGS.DARKJOURNAL":"Choisissez votre Journal",
+    "RPGUI.SETTINGS.DARKJOURNAL_HINT":"Permet de choisir entre le journal Original, custom ou custom sombre.",
+
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD": "Afficher les Conditions en cercle ?",
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD_HINT": "Place les effets en cercle et les arrange à l'extérieur du jeton ou sur le pourtour du jetons pour les jetons plus grands",
+
+    "RPGUI.SETTINGS.TOKEN_HUD": "Désactiver PF2e Interactive Token Tooltip Sombre ?",
+    "RPGUI.SETTINGS.TOKEN_HUD_HINT": "Désactive le thème sombre de PF2e Interactive Token Tooltip et rétablit le thème par défaut",
+
+    "RPGUI.SETTINGS.PF2E_HUD": "Désactiver le thème de PF2e HUD ?",
+    "RPGUI.SETTINGS.PF2E_HUD_HINT": "Désactive le thème custom PF2e HUD et rétablit le thème par défaut",
+
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING": "Désactiver le thème de PF2e Bestiary Tracking ?",
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING_HINT": "Désactive le thème custom PF2e Bestiary Tracking et rétablit le thème par défaut",
+
+    "RPGUI.SETTINGS.NAVIGATION": "Navigation Horizontale.",
+    "RPGUI.SETTINGS.NAVIGATION_HINT": "Utilisez ce bouton si vous n'utilisez pas Combat Carousel.",
+
+    "RPGUI.SETTINGS.COMPACT_MODE": "Mode Compact.",
+    "RPGUI.SETTINGS.COMPACT_MODE_HINT": "Réduit la taille du menu de gauche et supprime le logo.",
+
+    "RPGUI.SETTINGS.STANDARD_LOGO": "Logo Foundry.",
+    "RPGUI.SETTINGS.STANDARD_LOGO_HINT": "Remet le logo Foundry au lieu du logo texte.",
+
+    "RPGUI.SETTINGS.JOURNAL_SHEET": "Désactiver la texture parcheminée des journaux.",
+    "RPGUI.SETTINGS.JOURNAL_SHEET_HINT": "Désactive l'aspect parcheminé des pages du journal. (L'aspect parcheminé ne fonctionne qu'avec la version Originale du journal)",
+
+    "RPGUI.SETTINGS.JOURNAL_CURSOR": "Désactiver les curseurs RPG.",
+    "RPGUI.SETTINGS.JOURNAL_CURSOR_HINT": "Désactive les curseurs de type jeux vidéos RPG dans l'interface.",
+
+    "RPGUI.SETTINGS.MINIMAL_UI": "Support pour Minimal UI.",
+    "RPGUI.SETTINGS.MINIMAL_UI_HINT": "Corrige certains (pas tous) des problèmes liés à Minimal Ui.",
+
+    "RPGUI.SETTINGS.DISABLE_STYLES": "Désactiver Pathfinder Ui.",
+    "RPGUI.SETTINGS.DISABLE_STYLES_HINT": "Il s'agit d'un paramètre local, avec lequel tout joueur peut désactiver les styles.",
+
+    "RPGUI.SETTINGS.AUTO_COLLAPSE_SCENE_NAVIGATION_TEXT": "Replier automatique la barre de navigation des scènes",
+    "RPGUI.SETTINGS.AUTO_COLLAPSE_SCENE_NAVIGATION_TEXT_HINT": "(Local) La barre de navigation des scènes sera repliée par défaut",
+
+    "RPGUI.SETTINGS.EnableTitle": "Boutons de jet : Remplacer le sélecteur de type de jet par des boutons",
+    "RPGUI.SETTINGS.EnableHint": "Remplacer le menu déroulant de sélection de type de jet par un ensemble de quatre boutons.",
+    "RPGUI.SETTINGS.ReplaceButtonsTitle": "Boutons de jet : Utiliser le style de bouton sur tous les boutons de chat",
+    "RPGUI.SETTINGS.ReplaceButtonsHint": "Restylez les autres boutons de chat pour qu'ils aient la même apparence que les nouveaux boutons de jet.",
+
+    "RPGUI.SETTINGS.OPEN_SHEET_ON_CHAT_CLICK_TEXT": "Ouvrir la feuille au clic du nom dans le chat",
+    "RPGUI.SETTINGS.OPEN_SHEET_ON_CHAT_CLICK_TEXT_HINT": "(Local) Ouvre la feuille de l’acteur au clic de son nom dans le chat",
+
+    "RPGUI.SETTINGS.EnableAllianceViewerTitle": "Afficher l’alliance d'un Acteur dans la barre latérale.",
+    "RPGUI.SETTINGS.EnableAllianceViewerHint": "Affiche une pastille de couleur permettant de facilement voir l’alliance à laquelle appartient un acteur",
+
+    "PAUSEICON.path_name":       "Emplacement du fichier de l'icône de pause : ",
+    "PAUSEICON.path_hint":       "Dossier et nom de fichier où se trouve votre icône de pause alternative dans les données Foundry VTT. Cliquez sur le bouton du sélecteur pour sélectionner votre icône. Tapez 'None', pour aucune image.",
+    "PAUSEICON.opacity_name":    "Opacité %:",
+    "PAUSEICON.opacity_hint":    "Valeur comprise entre 0 et 100, plus la valeur est faible, plus le résultat est transparent.",
+    "PAUSEICON.text_name":       "Message de pause : ",
+    "PAUSEICON.text_hint":       "Message qui s'affiche lors de la pause.",
+    "PAUSEICON.speed_name":      "Vitesse: ",
+    "PAUSEICON.speed_hint":      "Secondes par rotation, 0 signifie aucune rotation.",
+    "PAUSEICON.dimensionX_name": "Dimension (largeur) : ",
+    "PAUSEICON.dimensionX_hint": "Largeur de l'icône en pixels.",
+    "PAUSEICON.dimensionY_name": "Dimension (hauteur) : ",
+    "PAUSEICON.dimensionY_hint": "Hauteur de l'icône en pixels.",
+    "PAUSEICON.fontSize_name":   "Taille de la police :",
+    "PAUSEICON.fontSize_hint":   "Taille de la police en em, la valeur par défaut est 2",
+    "PAUSEICON.shadow_name":     "Ombre portée (on/off) : ",
+    "PAUSEICON.shadow_hint":     "Lorsque cette option est activée, une ombre portée apparaît sous le texte.",
+    "PAUSEICON.textColor_name":  "Couleur : ",
+    "PAUSEICON.textColor_hint":  "Soit le code hexadécimal (par exemple #EEEEEE), soit le nom de la couleur HTML (par exemple CornflowerBlue).",
+    "PAUSEICON.saveButton":      "Enregistrer les paramètres",
+    "PAUSEICON.settings":        "Paramétrage de la Pause : ",
+    "PAUSEICON.settingsButton":  "Paramètres"
+}

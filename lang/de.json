@@ -1,0 +1,60 @@
+{
+    "RPGUI.SETTINGS.DORAKOUI":"Hello Hello, you've just activated Pathfinder Ui v3 & Dorako Ui at the same time. Both modules are graphical interfaces and cannot be activated together, as they share common code that interferes with each other. Please deactivate one of the two interfaces. Thank you for your understanding.",
+
+    "RPGUI.SETTINGS.DARKSHEET":"Select your Sheet Color",
+    "RPGUI.SETTINGS.DARKSHEET_HINT":"Only for player sheets.",
+
+    "RPGUI.SETTINGS.DARKPARTYSHEET":"Gruppenblatt",
+    "RPGUI.SETTINGS.DARKPARTYSHEET_HINT":"Ermöglicht die Auswahl zwischen dem Original- und dem Dunkelblatt.",
+   
+    "RPGUI.SETTINGS.DARKLOOTSHEET":"Loot Sheet Color",
+    "RPGUI.SETTINGS.DARKLOOTSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKNPCSHEET":"NPC Sheet Color",
+    "RPGUI.SETTINGS.DARKNPCSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKHAZARDSHEET":"Hazard Sheet Color",
+    "RPGUI.SETTINGS.DARKHAZARDSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET":"Kingdom Sheet Color",
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKJOURNAL":"Select your journal sheet",
+    "RPGUI.SETTINGS.DARKJOURNAL_HINT":"Select original, custom or dark custom sheet.",
+
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD": "Adjust token effects HUD?",
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD_HINT": "Makes effects circular and arranges them outside the token, or on the token ring for larger tokens",
+   
+    "RPGUI.SETTINGS.TOKEN_HUD": "Disable Dark PF2e Interactive Token Tooltip?",
+    "RPGUI.SETTINGS.TOKEN_HUD_HINT": "Disables the dark theme of PF2e Interactive Token Tooltip and restores default theme",
+
+    "RPGUI.SETTINGS.PF2E_HUD": "Disable PF2e HUD Theme?",
+    "RPGUI.SETTINGS.PF2E_HUD_HINT": "Disable PF2e HUD theme and restores default theme",
+
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING": "Disable PF2e Bestiary Tracking Theme?",
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING_HINT": "Disable PF2e Bestiary Tracking theme and restores default theme",
+
+    "RPGUI.SETTINGS.NAVIGATION": "Schalte die Navigation zurück in den horizontalen Modus",
+    "RPGUI.SETTINGS.NAVIGATION_HINT": "Verwende diesen Schalter, wenn du die Combat Carousel-Integration nicht verwendest",
+ 
+    "RPGUI.SETTINGS.COMPACT_MODE": "Kompakt mode",
+    "RPGUI.SETTINGS.COMPACT_MODE_HINT": "Verkleinert das linke Menü und entfernt das Logo",
+
+    "RPGUI.SETTINGS.STANDARD_LOGO": "Standard Logo",
+    "RPGUI.SETTINGS.STANDARD_LOGO_HINT": "Zurück zum Standardlogo anstelle des Textlogos",
+
+    "RPGUI.SETTINGS.JOURNAL_SHEET": "Disable parchment texture on Journal pages",
+    "RPGUI.SETTINGS.JOURNAL_SHEET_HINT": "Disable the parchment appearance on journal entries.",
+    
+    "RPGUI.SETTINGS.JOURNAL_CURSOR": "Disable RPG Cursors.",
+    "RPGUI.SETTINGS.JOURNAL_CURSOR_HINT": "Disable RPG Cursor style in Interface.",
+
+    "RPGUI.SETTINGS.MINIMAL_UI": "Minimale UI Unterstützung",
+    "RPGUI.SETTINGS.MINIMAL_UI_HINT": "Behebt einige (nicht alle) Probleme mit dem minimalen UI",
+
+    "RPGUI.SETTINGS.DISABLE_STYLES": "Deaktiviere Pathfinder UI",
+    "RPGUI.SETTINGS.DISABLE_STYLES_HINT": "Dies ist eine lokale Einstellung, mit der jeder Spieler Stile deaktivieren kann",
+
+    "RPGUI.SETTINGS.EnableAllianceViewerTitle": "Show the actor's alliance in the SideBar",
+    "RPGUI.SETTINGS.EnableAllianceViewerHint": "Displays a colored dot allowing you to easily see the alliance to which an actor belongs"
+}

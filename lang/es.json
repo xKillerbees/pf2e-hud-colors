@@ -1,0 +1,82 @@
+{
+    "RPGUI.SETTINGS.DORAKOUI":"Hello Hello, you've just activated Pathfinder Ui v3 & Dorako Ui at the same time. Both modules are graphical interfaces and cannot be activated together, as they share common code that interferes with each other. Please deactivate one of the two interfaces. Thank you for your understanding.",
+
+    "RPGUI.SETTINGS.DARKSHEET":"Select your Sheet Color",
+    "RPGUI.SETTINGS.DARKSHEET_HINT":"Only for player sheets.",
+
+    "RPGUI.SETTINGS.DARKPARTYSHEET":"Ficha de grupo",
+    "RPGUI.SETTINGS.DARKPARTYSHEET_HINT":"Selecciona entre el original o la hoja oscura.",
+
+    "RPGUI.SETTINGS.DARKLOOTSHEET":"Loot Sheet Color",
+    "RPGUI.SETTINGS.DARKLOOTSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKNPCSHEET":"NPC Sheet Color",
+    "RPGUI.SETTINGS.DARKNPCSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKHAZARDSHEET":"Hazard Sheet Color",
+    "RPGUI.SETTINGS.DARKHAZARDSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET":"Kingdom Sheet Color",
+    "RPGUI.SETTINGS.DARKKINGDOMSHEET_HINT":"Select original or dark sheet.",
+
+    "RPGUI.SETTINGS.DARKJOURNAL":"Select your journal sheet",
+    "RPGUI.SETTINGS.DARKJOURNAL_HINT":"Select original, custom or dark custom sheet.",
+
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD": "Adjust token effects HUD?",
+    "RPGUI.SETTINGS.TOKEN_EFFECT_HUD_HINT": "Makes effects circular and arranges them outside the token, or on the token ring for larger tokens",
+   
+    "RPGUI.SETTINGS.TOKEN_HUD": "Disable Dark PF2e Interactive Token Tooltip?",
+    "RPGUI.SETTINGS.TOKEN_HUD_HINT": "Disables the dark theme of PF2e Interactive Token Tooltip and restores default theme",
+
+    "RPGUI.SETTINGS.PF2E_HUD": "Disable PF2e HUD Theme?",
+    "RPGUI.SETTINGS.PF2E_HUD_HINT": "Disable PF2e HUD theme and restores default theme",
+
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING": "Disable PF2e Bestiary Tracking Theme?",
+    "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING_HINT": "Disable PF2e Bestiary Tracking theme and restores default theme",
+
+    "RPGUI.SETTINGS.NAVIGATION": "Vuelve a poner la navegación en modo horizontal",
+    "RPGUI.SETTINGS.NAVIGATION_HINT": "Marca esta opción si no utiliza el módulo Combat Carousel",
+
+    "RPGUI.SETTINGS.COMPACT_MODE": "Modo compacto",
+    "RPGUI.SETTINGS.COMPACT_MODE_HINT": "Reduce el tamaño del menú de la izquierda y elimina el logotipo",
+
+    "RPGUI.SETTINGS.STANDARD_LOGO": "Logotipo estándar",
+    "RPGUI.SETTINGS.STANDARD_LOGO_HINT": "Devuelve el logotipo estándar en lugar del logotipo de texto",
+
+    "RPGUI.SETTINGS.JOURNAL_SHEET": "Disable parchment texture on Journal pages",
+    "RPGUI.SETTINGS.JOURNAL_SHEET_HINT": "Disable the parchment appearance on journal entries.",
+    
+    "RPGUI.SETTINGS.JOURNAL_CURSOR": "Disable RPG Cursors.",
+    "RPGUI.SETTINGS.JOURNAL_CURSOR_HINT": "Disable RPG Cursor style in Interface.",
+    
+    "RPGUI.SETTINGS.MINIMAL_UI": "Soporte de Minimal UI",
+    "RPGUI.SETTINGS.MINIMAL_UI_HINT": "Arregla algunos (no todos) de los problemas con Minimal UI",
+
+    "RPGUI.SETTINGS.DISABLE_STYLES": "Desactivar Pathfinder Ui",
+    "RPGUI.SETTINGS.DISABLE_STYLES_HINT": "Esta es una configuración local, con la que cualquier jugador puede desactivar el estilo",
+
+    "RPGUI.SETTINGS.EnableAllianceViewerTitle": "Show the actor's alliance in the SideBar",
+    "RPGUI.SETTINGS.EnableAllianceViewerHint": "Displays a colored dot allowing you to easily see the alliance to which an actor belongs",
+
+    "PAUSEICON.path_name":      "Localización del icono de pausa: ",
+    "PAUSEICON.path_hint":      "Localización y nombre del fichero donde se encuentran sus iconos de pausa alternativos dentro de directorio de datos de Foundry VTT. Haga clic en el explorador de archivos para seleccionar el icono. Escriba None para no usar ninguna imagen",
+    "PAUSEICON.opacity_name":   "Opacidad (%): ",
+    "PAUSEICON.opacity_hint":   "Valor entre 0 y 100, cuanto menor más traslúcido",
+    "PAUSEICON.text_name":      "Mensaje de pausa: ",
+    "PAUSEICON.text_hint":      "Mensaje que aparece al pausar el juego",
+    "PAUSEICON.speed_name":     "Velocidad: ",
+    "PAUSEICON.speed_hint":     "Segundos por cada rotación, establezca a 0 para que no haya rotación",
+    "PAUSEICON.dimensionX_name": "Dimensiones (anchura): ",
+    "PAUSEICON.dimensionX_hint": "Ancho del icono en píxeles",
+    "PAUSEICON.dimensionY_name": "Dimensiones (altura): ",
+    "PAUSEICON.dimensionY_hint": "Alto del icono en píxeles",
+    "PAUSEICON.fontSize_name":   "Tamaño de la fuente:",
+    "PAUSEICON.fontSize_hint":   "Tamaño de la fuente en em, por defecto es 2",
+    "PAUSEICON.shadow_name":     "Sombra paralela (on/off): ",
+    "PAUSEICON.shadow_hint":     "Cuando se activa, aparecerá una sombra paralela en el texto",
+    "PAUSEICON.textColor_name":  "Color: ",
+    "PAUSEICON.textColor_hint":  "O bien el código hexadecimal (p.ej. #EEEEEE) o el nombre del color HTML (p.ej. CornflowerBlue)",
+    "PAUSEICON.saveButton":      "Guardar ajustes",
+    "PAUSEICON.settings":        "Ajustes: ",
+    "PAUSEICON.settingsButton":  "Submenú ajustes"
+}

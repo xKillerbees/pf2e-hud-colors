@@ -6,7 +6,7 @@ on:
       - "v*.*.*"
 
 permissions:
-  contents: write  # needed to create releases and upload assets
+  contents: write
 
 jobs:
   build-and-draft:
@@ -15,11 +15,39 @@ jobs:
       - name: Check out
         uses: actions/checkout@v4
 
+      - name: Install jq and zip
+        run: sudo apt-get update && sudo apt-get install -y jq zip
+
+      - name: Validate module.json (pre-patch)
+        run: |
+          test -f module.json || { echo "module.json not found at repo root"; exit 1; }
+          # Required keys present and non-empty strings
+          jq -e '
+            has("id") and has("title") and has("version") and has("manifest") and has("download")
+            and (.id|type=="string" and length>0)
+            and (.title|type=="string" and length>0)
+            and (.version|type=="string" and length>0)
+            and (.manifest|type=="string")
+            and (.download|type=="string")
+          ' module.json > /dev/null
+
+          # Paths exist (optional arrays)
+          for p in $(jq -r '.esmodules[]? // empty' module.json); do
+            [ -f "$p" ] || { echo "Missing esmodule: $p"; exit 1; }
+          done
+          for p in $(jq -r '.styles[]? // empty' module.json); do
+            [ -f "$p" ] || { echo "Missing style: $p"; exit 1; }
+          done
+          for p in $(jq -r '.languages[]?.path // empty' module.json); do
+            [ -f "$p" ] || { echo "Missing language file: $p"; exit 1; }
+          done
+          echo "Pre-patch validation OK"
+
       - name: Set variables from tag
         id: vars
         run: |
           TAG="${GITHUB_REF_NAME}"                  # e.g. v1.0.0
-          VERSION="${TAG#v}"                        # strip leading v -> 1.0.0
+          VERSION="${TAG#v}"                        # 1.0.0
           OWNER="${GITHUB_REPOSITORY_OWNER}"
           REPO="$(basename "$GITHUB_REPOSITORY")"
           MANIFEST_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/${TAG}/module.json"
@@ -32,21 +60,8 @@ jobs:
           echo "manifest_url=$MANIFEST_URL" >> $GITHUB_OUTPUT
           echo "download_url=$DOWNLOAD_URL" >> $GITHUB_OUTPUT
 
-      - name: Show plan
-        run: |
-          echo "Tag:          ${{ steps.vars.outputs.tag }}"
-          echo "Version:      ${{ steps.vars.outputs.version }}"
-          echo "Manifest URL: ${{ steps.vars.outputs.manifest_url }}"
-          echo "Download URL: ${{ steps.vars.outputs.download_url }}"
-
-      - name: Install jq and zip
-        run: sudo apt-get update && sudo apt-get install -y jq zip
-
       - name: Patch module.json with version/URLs
         run: |
-          set -e
-          test -f module.json || { echo "module.json not found at repo root"; exit 1; }
-
           jq \
             --arg v "${{ steps.vars.outputs.version }}" \
             --arg manifest "${{ steps.vars.outputs.manifest_url }}" \
@@ -56,15 +71,32 @@ jobs:
             | .manifest = $manifest
             | .download = $download
             ' module.json > module.json.tmp
-
           mv module.json.tmp module.json
           echo "Updated module.json:"
           cat module.json
 
+      - name: Validate module.json (post-patch)
+        run: |
+          # Ensure version matches tag and URLs are correct
+          jq -e --arg v "${{ steps.vars.outputs.version }}" --arg m "${{ steps.vars.outputs.manifest_url }}" --arg d "${{ steps.vars.outputs.download_url }}" '
+            .version == $v and .manifest == $m and .download == $d
+          ' module.json > /dev/null || { echo "Version/URLs not correctly set"; exit 1; }
+
+          # Recheck paths after patch (defense-in-depth)
+          for p in $(jq -r '.esmodules[]? // empty' module.json); do
+            [ -f "$p" ] || { echo "Missing esmodule: $p"; exit 1; }
+          done
+          for p in $(jq -r '.styles[]? // empty' module.json); do
+            [ -f "$p" ] || { echo "Missing style: $p"; exit 1; }
+          done
+          for p in $(jq -r '.languages[]?.path // empty' module.json); do
+            [ -f "$p" ] || { echo "Missing language file: $p"; exit 1; }
+          done
+          echo "Post-patch validation OK"
+
       - name: Build zip
         run: |
           ZIP_NAME="${{ steps.vars.outputs.repo }}-${{ steps.vars.outputs.tag }}.zip"
-          # zip all module files from repo root (exclude common junk)
           zip -r "$ZIP_NAME" . \
             -x "*.git*" \
             -x "node_modules/*" \

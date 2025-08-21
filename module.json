@@ -15,7 +15,7 @@
     }
   ],
   "url": "https://github.com/xKillerbees/pf2e-hud-colors",
-  "manifest": "https://raw.githubusercontent.com/xKillerbees/pf2e-hud-colors/v1.0.0/module.json",
+  "manifest": "https://raw.githubusercontent.com/xKillerbees/pf2e-hud-colors/main/module.json",
   "download": "https://github.com/xKillerbees/pf2e-hud-colors/releases/download/v1.0.0/pf2e-hud-colors-v1.0.0.zip",
   "readme": "https://github.com/xKillerbees/pf2e-hud-colors#readme",
   "bugs": "https://github.com/xKillerbees/pf2e-hud-colors/issues",

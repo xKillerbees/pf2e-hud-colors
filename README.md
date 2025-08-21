@@ -2,15 +2,18 @@
 
 Adds color styling and UI tweaks for the [PF2E HUD](https://github.com/reonZ/pf2e-hud) module.
 
+Colors picked from Pathfinder UI v3 by Sasmira
+[Request to Sasmira](https://gitlab.com/sasmira/pathfinder-ui/-/issues/97#note_2127535397)
+
 ## Requirements
 - Foundry VTT v12+ (tested on v13)
-- System: PF2e
+- System: PF2E
 - Module: PF2E HUD (by reonZ)
 
 ## Installation
 **Via Manifest URL**
 1. Copy the manifest URL for the release you want, for example:
-   `https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/pf2e-hud-colors/v1.0.0/module.json`
+   `https://raw.githubusercontent.com/xKillerbees/pf2e-hud-colors/v1.0.0/module.json`
 2. In Foundry: *Add-on Modules* → *Install Module* → Paste the URL → *Install*.
 
 **Manual**
@@ -21,7 +24,7 @@ Adds color styling and UI tweaks for the [PF2E HUD](https://github.com/reonZ/pf2
 ## Development
 ```bash
 # clone
-git clone https://github.com/<YOUR_GITHUB_USER>/pf2e-hud-colors.git
+git clone https://github.com/xKillerbees/pf2e-hud-colors.git
 cd pf2e-hud-colors
 
 # optional: link into your local Foundry data folder for live testing

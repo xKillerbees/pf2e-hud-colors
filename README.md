@@ -5,12 +5,10 @@ Adds color styling and UI tweaks for the [PF2E HUD](https://github.com/reonZ/pf2
 Colors picked from Pathfinder UI v3 by Sasmira
 [Request to Sasmira](https://gitlab.com/sasmira/pathfinder-ui/-/issues/97#note_2127535397)
 
-With HUD Colors
-
+## With HUD Colors
 <img width="679" height="249" alt="image" src="https://github.com/user-attachments/assets/a978d983-3693-4303-8ab8-fc415d49331d" />
 
-Without HUD Colors
-
+## Without HUD Colors
 <img width="677" height="244" alt="image" src="https://github.com/user-attachments/assets/433e4cee-d038-4328-8e27-472ecd1c40d6" />
 
 ## Requirements

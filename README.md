@@ -5,6 +5,8 @@ Adds color styling and UI tweaks for the [PF2E HUD](https://github.com/reonZ/pf2
 Colors picked from Pathfinder UI v3 by Sasmira
 [Request to Sasmira](https://gitlab.com/sasmira/pathfinder-ui/-/issues/97#note_2127535397)
 
+<img width="679" height="249" alt="image" src="https://github.com/user-attachments/assets/a978d983-3693-4303-8ab8-fc415d49331d" />
+
 ## Requirements
 - Foundry VTT v12+ (tested on v13)
 - System: PF2E

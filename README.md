@@ -13,7 +13,7 @@ Colors picked from Pathfinder UI v3 by Sasmira
 ## Installation
 **Via Manifest URL**
 1. Copy the manifest URL for the release you want, for example:
-   `https://raw.githubusercontent.com/xKillerbees/pf2e-hud-colors/v1.0.0/module.json`
+   `https://raw.githubusercontent.com/xKillerbees/pf2e-hud-colors/main/module.json`
 2. In Foundry: *Add-on Modules* → *Install Module* → Paste the URL → *Install*.
 
 **Manual**

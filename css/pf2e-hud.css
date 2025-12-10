@@ -416,7 +416,7 @@ background: var(--green);
 
 
 /*Tooltips*/
-#pf2e-hud-tooltip .distance, 
+/* #pf2e-hud-tooltip .distance, 
 #pf2e-hud-tooltip .status, 
 #pf2e-hud-tooltip .inner {
   color: var(--color-light-3);
@@ -427,7 +427,7 @@ background: var(--green);
   box-shadow: var(--box-shadow);
   backdrop-filter: blur(10px);
 }
-
+*/
 
 
 /*spell*/

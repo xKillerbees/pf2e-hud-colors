@@ -11,6 +11,14 @@ Colors picked from Pathfinder UI v3 by Sasmira
 ## Without HUD Colors
 <img width="677" height="244" alt="image" src="https://github.com/user-attachments/assets/433e4cee-d038-4328-8e27-472ecd1c40d6" />
 
+## Settings
+- `Use Icon Color Variants?` (Client): Enables expanded per-icon coloring in PF2E HUD Colors.
+- `Use Action Button Colors?` (Client): Enables custom strike/action chip styling.  
+  When disabled, action chips are restored to default-like PF2E HUD color families.
+
+Note:
+- `Disable PF2E HUD Theme?` has been hidden from the settings UI.
+
 ## Requirements
 - Foundry VTT v12+ (tested on v13)
 - System: PF2E
@@ -46,6 +54,16 @@ git add -A && git commit -m "v1.0.0" && git tag v1.0.0 && git push --tags
 2. Create a zip of the module folder contents (without `.git`), named `pf2e-hud-colors-v1.0.1.zip`.
 3. Create a GitHub Release with tag `v1.0.1` and upload the zip as an asset.
 4. Users can install/update via the manifest URL.
+
+## Recent Updates
+- Added client-side setting for icon color variants.
+- Added client-side setting for action button color variants.
+- Updated action chip color handling (`STRIKE`, `MAP`, `DAMAGE`, `CRITICAL`) for better default/variant parity.
+- Added broader active-toggle highlighting support across actions/skills/extras/spells.
+- Added spell sidebar rarity color mapping using module-specific classes.
+- Refactored sidebar update logic for lower overhead.
+- Switched module CSS loading to script-managed injection (`module.json` no longer auto-loads stylesheet).
+- Hid the `Disable PF2E HUD Theme?` option from the settings panel.
 
 ## License
 MIT

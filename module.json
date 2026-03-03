@@ -37,9 +37,7 @@
   "esmodules": [
     "scripts/rpg-ui.js"
   ],
-  "styles": [
-    "css/pf2e-hud.css"
-  ],
+  "styles": [],
   "languages": [
     {
       "lang": "en",

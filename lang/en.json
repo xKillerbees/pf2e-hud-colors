@@ -33,6 +33,10 @@
 
     "RPGUI.SETTINGS.PF2E_HUD": "Disable PF2e HUD Theme?",
     "RPGUI.SETTINGS.PF2E_HUD_HINT": "Disable PF2e HUD theme and restores default theme",
+    "RPGUI.SETTINGS.PF2E_HUD_ICON_VARIANTS": "Use Icon Color Variants?",
+    "RPGUI.SETTINGS.PF2E_HUD_ICON_VARIANTS_HINT": "Client-side toggle for the expanded per-icon color palette in PF2E HUD Colors.",
+    "RPGUI.SETTINGS.PF2E_HUD_ACTION_BUTTON_COLORS": "Use Action Button Colors?",
+    "RPGUI.SETTINGS.PF2E_HUD_ACTION_BUTTON_COLORS_HINT": "Client-side toggle for recoloring action variants; disable to keep vanilla action button colors.",
 
     "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING": "Disable PF2e Bestiary Tracking Theme?",
     "RPGUI.SETTINGS.PF2E_BESTIARY_TRACKING_HINT": "Disable PF2e Bestiary Tracking theme and restores default theme",
@@ -94,3 +98,4 @@
     "PAUSEICON.settings":        "Settings: ",
     "PAUSEICON.settingsButton":  "Settings Submenu"
 }
+

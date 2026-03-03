@@ -187,6 +187,74 @@ filter: grayscale(1);
   border: 1px solid var(--color-warm-5);
   box-shadow: var(--box-shadow);
 }
+#pf2e-hud-persistent [data-panel] i {
+  color: var(--icon-color);
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="shortcuts-menu"] [data-action="copy-shortcuts"] i {
+  color: #f7b267;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="shortcuts-menu"] [data-action="fill-shortcuts"] i {
+  color: #a0e7e5;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="shortcuts-menu"] [data-action="clear-shortcuts"] i {
+  color: #ff8fab;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="party-sheet"] i {
+  color: #ffb703;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="check-prompt"] i {
+  color: #8ecae6;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="travel-sheet"] i {
+  color: #90be6d;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="gm-screen"] i {
+  color: #c77dff;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="browser"] i {
+  color: #ffd166;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="journal-sheet"] i,
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="set-journal"] i {
+  color: #06d6a0;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="group-perception"] i {
+  color: #4cc9f0;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="identify-menu"] i {
+  color: #f9844a;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="random-pick"] i {
+  color: #e76f51;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="patch"] [data-action="select-all"] i {
+  color: #b8de6f;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .ac i {
+  color: #aab0b3;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .statistics .statistic.heroPoints i {
+  color: var(--bg3-blue-light);
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .statistics .statistic.speed i {
+  color: var(--color-cool-1);
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .statistics .statistic i.fa-chess-rook,
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .statistics .statistic i.fa-person-running,
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .statistics .statistic i.fa-brain {
+  color: #dc9456;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .statistics .statistic i.fa-eye,
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .statistics .statistic i.fa-mask,
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .statistics .statistic i.fa-hand-fist {
+  color: var(--color-cool-2);
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .bars .value.hp i.fa-heart {
+  color: #1fb222;
+}
+body.pf2e-hud-color-variants #pf2e-hud-persistent [data-panel="owned-actors"] .bars .value.sp i.fa-heart-pulse {
+  color: var(--bg3-blue-light);
+}
 #pf2e-hud-persistent-main .group.stretch .bottom .shortcuts .shortcut-group .shortcut .name,
 #pf2e-hud-persistent-main .group.stretch .bottom .shortcuts .shortcut-group .shortcut .subtitle,
 #pf2e-hud-persistent-main .group.stretch .bottom .shortcuts .shortcut-group .shortcut .variants .variant.attack {
@@ -239,7 +307,7 @@ filter: grayscale(1);
   background: var(--color-cool-5-90);
   border: 1px solid var(--color-cool-4);
 }
-#pf2e-hud-sidebar .inner.actions {
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar .inner.actions {
   --max-column-width: 19em;
   --attack-background: #171f693d;
   --attack-border-color: var(--color-rarity-rare);
@@ -268,37 +336,178 @@ filter: grayscale(1);
 #pf2e-hud-sidebar a.disabled {
   color: var(--color-warm-2);
 }
-#pf2e-hud-sidebar .inner.actions .item .variant.attack {
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar .inner.actions .item .variant.attack,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar .inner.actions .item .variant.attack {
   color: var(--pfui-main-color);
   text-shadow: var(--text-shadow);
   background: var(--secondary);
 }
-#pf2e-hud-sidebar .inner.actions .item .variant.damage {
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar .inner.actions .item .variant.damage,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar .inner.actions .item .variant.damage {
   color: var(--pfui-main-color);
   text-shadow: var(--text-shadow);
 
 }
-#pf2e-hud-sidebar .inner.actions .item .variant.attack:hover,
-#pf2e-hud-sidebar .inner.actions .item .variant.damage:hover {
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-damage"],
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="success"],
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-damage"],
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="success"] {
+  background: #5c3b00;
+  border-color: #d98e04;
+  color: #f5deb3;
+}
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-critical"],
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="critical-success"],
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-critical"],
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="critical-success"] {
+  background: #5e000052;
+  border-color: #b23636;
+  color: #ffd4d4;
+}
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-damage"]:hover,
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="success"]:hover,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-damage"]:hover,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="success"]:hover {
+  background: #7a5000;
+  color: #fff1d6;
+}
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-critical"]:hover,
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="critical-success"]:hover,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-critical"]:hover,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="critical-success"]:hover {
+  background: #7a1212;
+  color: #ffe7e7;
+}
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar .inner.actions .item .variant.attack:hover,
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar .inner.actions .item .variant.damage:hover,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar .inner.actions .item .variant.attack:hover,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar .inner.actions .item .variant.damage:hover {
 background: var(--green);
     color: var(--color-cool-5);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
     text-shadow: var(--text-shadow);
 }
-#pf2e-hud-sidebar .variants .variant {
-  background: var(--green);
-  border: unset;
-  color: var(--color-cool-5);
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .variants .variant,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .variants .variant {
+  background: #2c4608;
+  border: 1px solid #89ad2a;
+  color: #e3f5b1;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
 }
-#pf2e-hud-sidebar .variants .variant:hover {
+body.pf2e-hud-action-button-colors #pf2e-hud-sidebar[data-type="actions"] .variants .variant:hover,
+body[data-pf2e-hud-action-colors="1"] #pf2e-hud-sidebar[data-type="actions"] .variants .variant:hover {
   text-shadow: var(--text-shadow);
-  background: var(--color-warm-2);
-  color: var(--pfui-main-color);
+  background: #3a5d0b;
+  color: #f5ffe0;
+  border-color: #a8d13a;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
+}
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar .variants .variant:not(.attack):not(.damage),
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar .variants .variant:not(.attack):not(.damage):hover,
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar .variants .variant:not(.attack):not(.damage),
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar .variants .variant:not(.attack):not(.damage):hover {
+  background: var(--variant-background);
+  border: none;
+  color: var(--variant-color);
+  box-shadow: var(--variant-box-shadow);
+  border-radius: 2px;
+  text-shadow: none;
+}
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar .variants .variant:not(.attack):not(.damage):hover,
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar .variants .variant:not(.attack):not(.damage):hover {
+  background: var(--variant-background-hover);
+  color: var(--variant-color-hover);
+}
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.attack,
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.attack {
+  background: #171f693d;
+  border-color: #353d83;
+  color: #d7e4ff;
+}
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.attack:hover,
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.attack:hover {
+  background: #212b7f52;
+  color: #eaf1ff;
+}
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-damage"],
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="success"],
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-damage"],
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="success"] {
+  background: #5c3b00;
+  border-color: #d98e04;
+  color: #f5deb3;
+}
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-critical"],
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="critical-success"],
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-critical"],
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="critical-success"] {
+  background: #5e000052;
+  border-color: #b23636;
+  color: #ffd4d4;
+}
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-damage"]:hover,
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="success"]:hover,
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-damage"]:hover,
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="success"]:hover {
+  background: #7a5000;
+  color: #fff1d6;
+}
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-critical"]:hover,
+body:not(.pf2e-hud-action-button-colors) #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="critical-success"]:hover,
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="strike-critical"]:hover,
+body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .item .variant.damage[data-action="blast-damage"][data-outcome="critical-success"]:hover {
+  background: #7a1212;
+  color: #ffe7e7;
+}
+/* Activation arrows: ready = green, unavailable = red */
+#pf2e-hud-sidebar[data-type="actions"] .item.action .controls a[data-action="use-action"]:not(.disabled) i.fa-play,
+#pf2e-hud-sidebar[data-type="actions"] .item.action .controls a[data-action="hero-action-use"]:not(.disabled) i.fa-play {
+  color: #1fb222;
+}
+#pf2e-hud-sidebar[data-type="actions"] .item.action .controls a[data-action="use-action"].disabled i.fa-play,
+#pf2e-hud-sidebar[data-type="actions"] .item.action .controls a[data-action="hero-action-use"].disabled i.fa-play {
+  color: #b01717;
+}
+/* Active actions/stances/exploration: show activation name in green */
+#pf2e-hud-sidebar .item.action.pf2e-hud-action-active .name a {
+  color: #1fb222;
+}
+#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active label span {
+  color: #1fb222;
+}
+#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active,
+#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active a,
+#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active label,
+#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active span {
+  color: #1fb222;
+}
+/* Skills/Extras proficient statistic actions (e.g., Stabilize variants) */
+#pf2e-hud-sidebar[data-type="skills"] .statistic-wrapper.pf2e-hud-proficient-action .variants .variant,
+#pf2e-hud-sidebar[data-type="extras"] .statistic-wrapper.pf2e-hud-proficient-action .variants .variant {
+  background: #2c4608;
+  border: 1px solid #89ad2a;
+  color: #e3f5b1;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+#pf2e-hud-sidebar[data-type="skills"] .statistic-wrapper.pf2e-hud-proficient-action .variants .variant:hover,
+#pf2e-hud-sidebar[data-type="extras"] .statistic-wrapper.pf2e-hud-proficient-action .variants .variant:hover {
+  background: #3a5d0b;
+  border-color: #a8d13a;
+  color: #f5ffe0;
+}
+/* Spell name rarity colors like inventory tab */
+#pf2e-hud-sidebar[data-type="spells"] .item .details .name a.pf2e-hud-rarity-uncommon {
+  color: var(--color-rarity-uncommon);
+}
+#pf2e-hud-sidebar[data-type="spells"] .item .details .name a.pf2e-hud-rarity-rare {
+  color: var(--color-rarity-rare);
+}
+#pf2e-hud-sidebar[data-type="spells"] .item .details .name a.pf2e-hud-rarity-unique {
+  color: var(--color-rarity-unique);
 }
 
 /*Other*/
@@ -345,14 +554,33 @@ background: var(--green);
 [data-sidebar="items"],
 [data-sidebar="spells"],
 [data-sidebar="skills"], 
-[data-sidebar="extras"] {    
+[data-sidebar="feats"],
+[data-sidebar="extras"] {
   --icon-color: var(--color-warm-1);
+}
+body.pf2e-hud-color-variants [data-sidebar="actions"] {    
+  --icon-color: #ff9f1c;
+}
+body.pf2e-hud-color-variants [data-sidebar="items"] {
+  --icon-color: #7bd389;
+}
+body.pf2e-hud-color-variants [data-sidebar="spells"] {
+  --icon-color: #64c7ff;
+}
+body.pf2e-hud-color-variants [data-sidebar="skills"] { 
+  --icon-color: #b197fc;
+}
+body.pf2e-hud-color-variants [data-sidebar="feats"] {
+  --icon-color: #f28482;
+}
+body.pf2e-hud-color-variants [data-sidebar="extras"] {    
+  --icon-color: #84dcc6;
 }
 [id^=pf2e-hud] [data-section].info.active {  
   --icon-color: var(--green);
 } 
 [data-section="effects"],
-[id^=pf2e-hud] [data-section][data-section=sidebar].active i {    
+[id^=pf2e-hud] [data-sidebar].active i {    
   --icon-color: var(--bg3-alliance-opposition-red);
   color: var(--icon-color);
 } 

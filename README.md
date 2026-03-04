@@ -2,19 +2,21 @@
 
 Adds color styling and UI tweaks for the [PF2E HUD](https://github.com/reonZ/pf2e-hud) module.
 
-## With HUD Colors
+## Actor
 <img width="716" height="234" alt="image" src="https://github.com/user-attachments/assets/b82549bf-9380-4663-9edc-68869cb1d74e" />
-<img width="835" height="668" alt="image" src="https://github.com/user-attachments/assets/d81d1e7b-fa6e-4e3d-91ce-265de6749a5c" />
-<img width="512" height="198" alt="image" src="https://github.com/user-attachments/assets/c3434f87-05b4-4c17-861c-c6c7765209c0" />
-<img width="909" height="973" alt="image" src="https://github.com/user-attachments/assets/fa58d1f5-5676-4cde-b3aa-f501dd12b117" />
-
-
-## Without HUD Colors
 <img width="697" height="232" alt="image" src="https://github.com/user-attachments/assets/6ef91bcb-a143-41ff-a675-141bc036c155" />
-<img width="836" height="639" alt="image" src="https://github.com/user-attachments/assets/3a6ed33a-8427-4343-b5b4-a719fce9756a" />
-<img width="577" height="192" alt="image" src="https://github.com/user-attachments/assets/59437e22-1172-4219-b54c-ed7b87f88d8b" />
-<img width="902" height="961" alt="image" src="https://github.com/user-attachments/assets/ade7e969-73e2-4c61-90d4-9f36d840744d" />
 
+## Party
+<img width="512" height="198" alt="image" src="https://github.com/user-attachments/assets/c3434f87-05b4-4c17-861c-c6c7765209c0" />
+<img width="577" height="192" alt="image" src="https://github.com/user-attachments/assets/59437e22-1172-4219-b54c-ed7b87f88d8b" />
+
+## Actions
+<img width="835" height="668" alt="image" src="https://github.com/user-attachments/assets/d81d1e7b-fa6e-4e3d-91ce-265de6749a5c" />
+<img width="836" height="639" alt="image" src="https://github.com/user-attachments/assets/3a6ed33a-8427-4343-b5b4-a719fce9756a" />
+
+## Spells
+<img width="909" height="973" alt="image" src="https://github.com/user-attachments/assets/fa58d1f5-5676-4cde-b3aa-f501dd12b117" />
+<img width="902" height="961" alt="image" src="https://github.com/user-attachments/assets/ade7e969-73e2-4c61-90d4-9f36d840744d" />
 
 ## Settings
 - `Use Icon Color Variants?` (Client): Enables expanded per-icon coloring in PF2E HUD Colors.

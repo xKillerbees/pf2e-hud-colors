@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Install jq and zip
         run: sudo apt-get update && sudo apt-get install -y jq zip
@@ -107,7 +107,7 @@ jobs:
           echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
 
       - name: Create draft release and upload asset
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v2.3.2
         with:
           tag_name: ${{ steps.vars.outputs.tag }}
           draft: true

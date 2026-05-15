@@ -27,7 +27,7 @@ Note:
 - `Disable PF2E HUD Theme?` has been hidden from the settings UI as it was not working.
 
 ## Requirements
-- Foundry VTT v12+ (tested on v13)
+- Foundry VTT v12+ (tested on v14)
 - System: PF2E
 - Module: PF2E HUD (by reonZ)
 
@@ -61,6 +61,7 @@ git add -A && git commit -m "v1.0.0" && git tag v1.0.0 && git push --tags
 2. Create a zip of the module folder contents (without `.git`), named `pf2e-hud-colors-v1.0.1.zip`.
 3. Create a GitHub Release with tag `v1.0.1` and upload the zip as an asset.
 4. Users can install/update via the manifest URL.
+
 
 ## License
 MIT

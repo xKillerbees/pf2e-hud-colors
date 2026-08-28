@@ -475,13 +475,18 @@ body[data-pf2e-hud-action-colors="0"] #pf2e-hud-sidebar[data-type="actions"] .it
 #pf2e-hud-sidebar .item.action.pf2e-hud-action-active .name a {
   color: #1fb222;
 }
-#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active label span {
+#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active label span,
+#pf2e-hud-sidebar ul[data-option-toggles] > li.pf2e-hud-action-active label span {
   color: #1fb222;
 }
 #pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active,
 #pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active a,
 #pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active label,
-#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active span {
+#pf2e-hud-sidebar .option-toggles li.pf2e-hud-action-active span,
+#pf2e-hud-sidebar ul[data-option-toggles] > li.pf2e-hud-action-active,
+#pf2e-hud-sidebar ul[data-option-toggles] > li.pf2e-hud-action-active a,
+#pf2e-hud-sidebar ul[data-option-toggles] > li.pf2e-hud-action-active label,
+#pf2e-hud-sidebar ul[data-option-toggles] > li.pf2e-hud-action-active span {
   color: #1fb222;
 }
 /* Skills/Extras proficient statistic actions (e.g., Stabilize variants) */

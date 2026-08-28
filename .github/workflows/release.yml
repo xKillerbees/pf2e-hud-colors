@@ -50,7 +50,9 @@ jobs:
           VERSION="${TAG#v}"                        # 1.0.0
           OWNER="${GITHUB_REPOSITORY_OWNER}"
           REPO="$(basename "$GITHUB_REPOSITORY")"
-          MANIFEST_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/${TAG}/module.json"
+          # Track main, not the tag: Foundry re-fetches this URL to check for updates,
+          # and a tag-pinned manifest always reports its own version (never updates).
+          MANIFEST_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/main/module.json"
           DOWNLOAD_URL="https://github.com/${OWNER}/${REPO}/releases/download/${TAG}/${REPO}-${TAG}.zip"
 
           echo "tag=$TAG" >> $GITHUB_OUTPUT

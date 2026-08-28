@@ -182,7 +182,7 @@ function updateActiveActionRows() {
 		row.classList.toggle("pf2e-hud-action-active", hasActiveToggle || hasOnSwitch || hasCheckedInput || hasXmarkUse);
 	}
 
-	const optionRows = sidebar.querySelectorAll(".option-toggles li");
+	const optionRows = sidebar.querySelectorAll(".option-toggles li, ul[data-option-toggles] > li");
 	for (const row of optionRows) {
 		const hasCheckedInput = !!row.querySelector('input[type="checkbox"]:checked');
 		row.classList.toggle("pf2e-hud-action-active", hasCheckedInput);
@@ -330,7 +330,11 @@ body.pf2e-hud-colors-disabled #pf2e-hud-sidebar .item.action .name a,
 body.pf2e-hud-colors-disabled #pf2e-hud-sidebar .option-toggles li,
 body.pf2e-hud-colors-disabled #pf2e-hud-sidebar .option-toggles li a,
 body.pf2e-hud-colors-disabled #pf2e-hud-sidebar .option-toggles li label,
-body.pf2e-hud-colors-disabled #pf2e-hud-sidebar .option-toggles li span {
+body.pf2e-hud-colors-disabled #pf2e-hud-sidebar .option-toggles li span,
+body.pf2e-hud-colors-disabled #pf2e-hud-sidebar ul[data-option-toggles] > li,
+body.pf2e-hud-colors-disabled #pf2e-hud-sidebar ul[data-option-toggles] > li a,
+body.pf2e-hud-colors-disabled #pf2e-hud-sidebar ul[data-option-toggles] > li label,
+body.pf2e-hud-colors-disabled #pf2e-hud-sidebar ul[data-option-toggles] > li span {
   color: inherit !important;
 }
 

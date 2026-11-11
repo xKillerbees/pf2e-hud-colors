@@ -1,6 +1,7 @@
 # PF2E HUD Colors
 
 Adds color styling and UI tweaks for the [PF2E HUD](https://github.com/reonZ/pf2e-hud) module.
+Works in both **Pathfinder 2e (PF2E)** and **Starfinder 2e (SF2E)** worlds.
 
 ## Actor
 <img width="716" height="234" alt="image" src="https://github.com/user-attachments/assets/b82549bf-9380-4663-9edc-68869cb1d74e" />
@@ -28,8 +29,9 @@ Note:
 
 ## Requirements
 - Foundry VTT v12+ (tested on v14)
-- System: PF2E
-- Module: PF2E HUD (by reonZ)
+- System: PF2E or SF2E
+- Module: PF2E HUD (by reonZ), 1.28.0+ (tested on 2.57.0)
+  - SF2E worlds need PF2E HUD 2.42.0 or newer, the first version with SF2E support (which in turn needs Foundry v14).
 
 ## Installation
 **Via Manifest URL**

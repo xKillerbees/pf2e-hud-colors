@@ -1,4 +1,4 @@
-name: Package & Draft Release
+name: Package & Release
 
 on:
   push:
@@ -108,10 +108,11 @@ jobs:
             -x ".vscode/*"
           echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
 
-      - name: Create draft release and upload asset
+      - name: Create release and upload asset
         uses: softprops/action-gh-release@v2.3.2
         with:
           tag_name: ${{ steps.vars.outputs.tag }}
-          draft: true
+          draft: false
+          make_latest: true
           generate_release_notes: true
           files: ${{ env.ZIP_NAME }}

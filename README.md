@@ -61,8 +61,7 @@ git add -A && git commit -m "v1.0.0" && git tag v1.0.0 && git push --tags
 ## Releasing
 1. Update `version` and `download` in `module.json` for the new tag (e.g. `1.0.5` / `v1.0.5`). Leave `manifest` pointing at `main` — Foundry re-fetches that URL to detect updates, so it must never be pinned to a tag.
 2. Commit, then push the matching `v1.0.5` tag.
-3. The release workflow validates the manifest, builds the zip, and opens a draft release with it attached.
-4. Review and publish the draft. Existing installs then see the update on their next check.
+3. The release workflow validates the manifest, builds the zip, and publishes the release with it attached. Existing installs then see the update on their next check.
 
 
 ## License
